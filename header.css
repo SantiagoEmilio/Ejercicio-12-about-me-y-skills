@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    height: 6rem;
+    padding: 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto1 h1{
+  font-size: 2.4rem;
+}
+.foto1 {
+    width: 50%;
+    height: 10rem;
+    object-fit: covers;
+}
+
+.foto2{
+  width: 10%;
+  height: 1.5rem;
+  object-fit: covers;
+}
+
+.div-img {
+    background-color: grey;
+    margin: auto;
+    padding: 1.5rem;
+  
+    position: relative;
+  }
+  .div-img .img2 {
+    width: 93%;
+    height: 105%;
+    object-fit: cover;
+    object-position: bottom;
+    border: 0.5rem solid white;
+  
+    position: absolute;
+    top: -2.5rem;
+    left: 1rem;
+  }
